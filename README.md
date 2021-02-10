@@ -17,3 +17,4 @@ for now just use as for local testing below...
 npx create-react-app test-app --template file:./templates/cra-template-zaizi
 
 
+should create a directory /test-app with new react app fully configured
