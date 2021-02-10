@@ -1,0 +1,31 @@
+{
+  "name": "cra-template-zaizi",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "pwa",
+    "workbox",
+    "service-worker"
+  ],
+  "description": "The base Zaizi template for Create React App.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.eu-west-2.amazonaws.com/v1/repos/zaizi-frontend-react-template",
+    "directory": "templates/cra-template-zaizi"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
