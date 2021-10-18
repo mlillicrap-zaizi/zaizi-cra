@@ -1,3 +1,7 @@
+THIS PROJECT HAS BEEN MOVED HERE: 
+https://github.com/zaizi/zaizi-react-template
+
+
 # Create React App Zaizi template
 
 Contains
