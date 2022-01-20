@@ -1,5 +1,4 @@
-import { HelloWorldProps } from "../../types/example";
-
+import { HelloWorldProps } from '../../types/example';
 
 export interface IExampleService {
   register(registrationData: HelloWorldProps): Promise<Response>;
@@ -13,13 +12,13 @@ export class ExampleService implements IExampleService {
   }
 
   async register(registrationData: HelloWorldProps) {
-    return await fetch(`${this.baseUrl}/register`, {
+    return fetch(`${this.baseUrl}/register`, {
       method: 'POST',
       headers: new Headers({
         Accept: 'application/json',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       }),
-      body: JSON.stringify(registrationData)
+      body: JSON.stringify(registrationData),
     });
   }
 }
@@ -43,5 +42,3 @@ export class ExampleService implements IExampleService {
 //     },
 // };
 // export default ExampleApiService;
-
-

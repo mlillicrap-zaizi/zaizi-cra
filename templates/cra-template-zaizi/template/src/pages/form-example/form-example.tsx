@@ -1,16 +1,17 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import './styles.scss';
+// import React, { useState } from "react";
+// import ReactDOM from "react-dom";
+// import './styles.scss';
 
-export const FormExample = () => {
-  
-  const [textValue, setTextValue] = useState<string>();
+// export const FormExample = () => {
 
-  return (<>  <form>
-<input/>
-</form>
-  <div>{textValue}</div>
-  </>
-)};
+//   const [textValue, setTextValue] = useState<string>();
 
-export default FormExample;
+//   return (<>  <form>
+// <input/>
+// </form>
+//   <div>{textValue}</div>
+//   </>
+// )};
+
+// export default FormExample;
+export {};

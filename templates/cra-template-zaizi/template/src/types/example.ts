@@ -1,5 +1,4 @@
-
 export interface HelloWorldProps {
-    userName: string;
-    company: string;
-  }
+  userName: string;
+  company: string;
+}
